@@ -7,13 +7,13 @@ const NavBar = () => {
     { name: "Menu", path: "menu" },
   ];
   return (
-    <nav className="flex flex-col items-center gap-4">
+    <nav className="flex justify-center items-center gap-4 m-4">
       <div>
         <Link to="/">
           <img src={logo} alt="Te Logo" className="w-24 h-auto" />
         </Link>
       </div>
-      <ul className="flex items-center">
+      <ul className="flex gap-4 items-center">
         {navLinks.map((link) => (
           <li key={link.name}>
             <Link to={link.path} className="px-10 py-5">
