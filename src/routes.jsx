@@ -12,6 +12,7 @@ const router = createBrowserRouter([
       { index: true, element: <Home /> },
       { path: "menu", element: <Menu /> },
     ],
+    basename: "/tecoffee",
   },
 ]);
 
