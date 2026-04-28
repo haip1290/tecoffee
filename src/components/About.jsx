@@ -16,7 +16,7 @@ const About = () => {
 
         {/* manifesto */}
         <p className="text-lg text-stone-600 font-light leading-relaxed max-w-md">
-          We source the best ingredients and brew every cup with a
+          We source good ingredients and brew every cup with a
           <span className="text-stone-800 font-medium"> neighbor’s heart</span>,
           so you can find a peaceful moment to sit quietly or a space to connect
           with your friends.

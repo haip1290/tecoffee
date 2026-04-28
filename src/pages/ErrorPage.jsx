@@ -1,13 +1,10 @@
-import { useRouteError, Link } from "react-router-dom";
+import { Link } from "react-router";
 
 const ErrorPage = () => {
-  const error = useRouteError();
-  console.error(error); // Keep this to see the real error in your F12 console
-
   return (
     <div className="min-h-screen bg-stone-50 flex flex-col items-center justify-center px-6 text-center">
       <span className="text-stone-400 uppercase tracking-[0.4em] text-xs mb-4">
-        Error {error.status || "404"}
+        Error
       </span>
 
       <h1 className="text-3xl md:text-4xl font-serif italic text-stone-800 mb-6">
