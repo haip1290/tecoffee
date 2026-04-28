@@ -1,7 +1,7 @@
 import manifestoImg from "../assets/interior/working_customr.jpg";
 const About = () => {
   return (
-    <section className="flex items-center max-h-screen md:h-[80vh] overflow-hidden bg-stone-50">
+    <section className="flex flex-col md:flex-row items-center min-h-screen md:h-[80vh] overflow-hidden bg-stone-50 py-20 md:py-4">
       <div className="flex-4 flex flex-col justify-center items-center px-10 md:px-20 lg:px-32 text-center space-y-8">
         {/* header */}
         <span className="text-stone-400 uppercase tracking-[0.3em] text-xs">

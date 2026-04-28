@@ -50,11 +50,11 @@ const JoinUs = () => {
       {/* image section */}
       <div
         // Add bg-fixed
-        className="relative h-[70vh] w-full flex items-center justify-center bg-cover bg-center bg-fixed"
+        className="relative h-[70vh] w-full flex items-center justify-center bg-cover bg-center bg-fixed bg-no-repeat"
         style={{
           backgroundImage: `linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(${shopFrontImg})`,
-          backgroundPosition: "50% 65%",
-          backgroundSize: "115%",
+          backgroundPosition: "50% 20%",
+          backgroundSize: "100%",
         }}
       >
         <h2 className="text-white text-5xl md:text-7xl font-light tracking-[0.2em] uppercase text-center px-4">
