@@ -5,18 +5,27 @@ const NavBar = () => {
   const navLinks = [
     { name: "Home", path: "/" },
     { name: "Menu", path: "menu" },
+    { name: "Manifesto", path: "manifesto" },
+    { name: "Contact Us", path: "contact" },
   ];
   return (
-    <nav className="flex justify-center items-center gap-4 m-4">
+    <nav className="flex justify-center items-stretch gap-2 h-24">
       <div>
         <Link to="/">
-          <img src={logo} alt="Te Logo" className="w-24 h-auto" />
+          <img
+            src={logo}
+            alt="Te Logo"
+            className="w-24 h-auto hover:grayscale"
+          />
         </Link>
       </div>
-      <ul className="flex gap-4 items-center">
+      <ul className="flex items-stretch">
         {navLinks.map((link) => (
-          <li key={link.name}>
-            <Link to={link.path} className="px-10 py-5">
+          <li key={link.name} className="flex">
+            <Link
+              to={link.path}
+              className="flex items-center px-10 transition-colors hover:bg-primary h-full"
+            >
               {link.name}
             </Link>
           </li>

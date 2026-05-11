@@ -3,7 +3,7 @@ import Hero from "../components/Hero";
 import About from "../components/About";
 import JoinUs from "../components/JoinUs";
 import Statement from "../components/Statement";
-import Socials from "../components/Socials.jsx";
+import ContactUs from "../components/ContactUs.jsx";
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
       <About />
       <JoinUs />
       <Statement />
-      <Socials />
+      <ContactUs />
     </div>
   );
 };

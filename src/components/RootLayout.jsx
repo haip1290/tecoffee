@@ -1,6 +1,8 @@
 import { Outlet } from "react-router";
 
 import NavBar from "./NavBar";
+import Socials from "../components/Socials.jsx";
+
 import Footer from "./Footer";
 
 const RootLayout = () => (
@@ -9,6 +11,7 @@ const RootLayout = () => (
     <main className="flex-1 flex flex-col">
       <Outlet />
     </main>
+    <Socials />
     <Footer />
   </div>
 );

@@ -1,6 +1,6 @@
 const Socials = () => {
   return (
-    <section className="py-24 bg-[#995444] flex flex-col items-center justify-center">
+    <section className="py-12 bg-primary flex flex-col items-center justify-center">
       <span className="text-white/60 uppercase tracking-[0.4em] text-[10px] mb-10">
         Follow our story
       </span>

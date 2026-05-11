@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  /* Primary Logo Color */
+  --color-primary: #995444; /* Deep Earthy Brown */
+
+  /* Supporting Palette */
+  --color-secondary: #e5d3b3; /* Warm Sand - for card backgrounds */
+  --color-accent: #7a4236; /* Burnt Umber - for hover states & dark buttons */
+  --color-surface: #fdfbf7; /* Bone White - for main site background */
+  --color-dark: #2c2421; /* Espresso - for text  */
+  --color-leaf: #687a64; /* Muted Sage - Pairs good with brown */
+
+  /* Fonts */
+  --font-display: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+}
