@@ -150,7 +150,7 @@ const menu = [
     description: "Matcha, sữa",
     price: "65000",
     image: dirtymatcha,
-    category: "Matcha",
+    category: "Matcha & Choco",
   },
   {
     id: 20,
@@ -158,7 +158,7 @@ const menu = [
     description: "Matcha dừa",
     price: "75000",
     image: cocomatcha,
-    category: "Matcha",
+    category: "Matcha & Choco",
   },
   {
     id: 21,
@@ -166,7 +166,7 @@ const menu = [
     description: "Matcha, Thanh Yên, nhiệt đới",
     price: "75000",
     image: cocomatcha,
-    category: "Matcha",
+    category: "Matcha & Choco",
   },
   {
     id: 22,
@@ -174,7 +174,7 @@ const menu = [
     description: "Sô cô la",
     price: "65000",
     image: cocomatcha,
-    category: "Chocolate",
+    category: "Matcha & Choco",
   },
   {
     id: 23,
@@ -182,7 +182,7 @@ const menu = [
     description: "Trà bá tước, sữa tươi",
     price: "65000",
     image: cocomatcha,
-    category: "Tea",
+    category: "Tea & Juice",
   },
   {
     id: 24,
@@ -190,7 +190,7 @@ const menu = [
     description: "Trà sữa Oolong nhài",
     price: "55000",
     image: cocomatcha,
-    category: "Tea",
+    category: "Tea & Juice",
   },
   {
     id: 25,
@@ -198,7 +198,7 @@ const menu = [
     description: "Trà Oolong nhài kem mặn",
     price: "55000",
     image: cocomatcha,
-    category: "Tea",
+    category: "Tea & Juice",
   },
   {
     id: 26,
@@ -206,7 +206,7 @@ const menu = [
     description: "Trà sữa Oolong khói",
     price: "55000",
     image: cocomatcha,
-    category: "Tea",
+    category: "Tea & Juice",
   },
   {
     id: 27,
@@ -214,7 +214,7 @@ const menu = [
     description: "Trà Oolong khói kem bá tước",
     price: "55000",
     image: cocomatcha,
-    category: "Tea",
+    category: "Tea & Juice",
   },
   {
     id: 28,
@@ -222,7 +222,7 @@ const menu = [
     description: "Passion fruit, pineapple, coconut",
     price: "65000",
     image: cocomatcha,
-    category: "Juice",
+    category: "Tea & Juice",
   },
   {
     id: 29,
@@ -230,7 +230,7 @@ const menu = [
     description: "Watermelon, beetroot, ginger, lemon",
     price: "60000",
     image: cocomatcha,
-    category: "Juice",
+    category: "Tea & Juice",
   },
   {
     id: 30,
