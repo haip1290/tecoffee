@@ -6,8 +6,8 @@ const RegularDrinks = () => {
   // preferred order of categories used to rearraged with sort()
   const preferredOrder = [
     "espresso",
-    "Tea & Juice",
     "Vietnamese coffee",
+    "Tea & Juice",
     "Coldbrew",
     "Match & Choco",
   ];
@@ -24,23 +24,23 @@ const RegularDrinks = () => {
     return finalA - finalB;
   });
   return (
-    <div className="columns-1 md:columns-2 gap-x-10 [column-fill:balance]">
+    <div className="columns-1 md:columns-3 gap-x-14 [column-fill:balance]">
       {categories.map((category) => {
         const categoryItems = regularItems.filter(
           (item) => item.category === category,
         );
         return (
           <div key={category} className="break-inside-avoid mb-10 space-y-6">
-            <h2 className="text-2xl font-serif font-light text-stone-700 tracking-wide border-b border-stone-200 pb-2 capitalize">
+            <h2 className="w-fit text-2xl font-display font-light text-dark tracking-wide border-b border-primary pb-2 capitalize">
               {category}
             </h2>
-            <div className="space-y-3">
+            <div className="space-y-2">
               {categoryItems.map((item) => (
                 <div key={item.id} className="group flex flex-col space-y-1">
-                  <h3 className="text-lg font-light text-stone-800 tracking-wide group-hover:text-stone-900 transition-colors duration-300">
+                  <h3 className="text-lg font-light text-dark tracking-wide group-hover:text-stone-900 transition-colors duration-300">
                     {item.name}
                   </h3>
-                  <p className="text-stone-500 text-sm font-light leading-relaxed">
+                  <p className="text-dark/65 text-sm font-light leading-relaxed">
                     {item.description}
                   </p>
                 </div>

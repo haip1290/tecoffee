@@ -10,8 +10,8 @@ const NavBar = () => {
   ];
   return (
     <nav className="flex justify-center items-stretch gap-2 h-24">
-      <div>
-        <Link to="/">
+      <div className="mr-4">
+        <Link to="/" className="">
           <img
             src={logo}
             alt="Te Logo"
@@ -19,12 +19,12 @@ const NavBar = () => {
           />
         </Link>
       </div>
-      <ul className="flex items-stretch">
+      <ul className="flex items-center gap-2">
         {navLinks.map((link) => (
           <li key={link.name} className="flex">
             <Link
               to={link.path}
-              className="flex items-center px-10 transition-colors hover:bg-primary h-full"
+              className="flex px-10 py-6 text-primary font-medium rounded-full transition-all duration-300 hover:text-primary hover:bg-primary/4"
             >
               {link.name}
             </Link>

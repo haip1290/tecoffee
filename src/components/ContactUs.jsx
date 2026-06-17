@@ -3,7 +3,7 @@ import contactUsImg from "../assets/TeWithCustomers.jpg";
 const ContactUs = () => {
   return (
     <section
-      className="flex flex-col md:flex-row py-16 px-16 h-auto md:h-[70vh] bg-white max-w-7xl mx-auto my-8 rounded-3xl shadow-xl border border-stone-100"
+      className="flex flex-col md:flex-row py-16 px-16 h-auto md:h-[70vh]"
       id="contact-cta"
     >
       <div className="flex-1 flex flex-col justify-center items-center gap-4">
