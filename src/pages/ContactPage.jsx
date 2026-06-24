@@ -1,5 +1,3 @@
-import ZaloQR from "../assets/zaloQR.jpg";
-
 const ContactPage = () => {
   return (
     <div className="p-6 md:p-20 lg:px-60 lg:py-20 bg-secondary">
@@ -68,7 +66,7 @@ const ContactPage = () => {
           <div className="flex flex-col items-start gap-3">
             <div className="p-3 bg-white rounded-2xl shadow-md border border-gray-100 inline-block">
               <img
-                src={ZaloQR}
+                src="https://snrslqjvofysjhreteuw.supabase.co/storage/v1/object/public/tepresso/zaloQR.jpg"
                 alt="Zalo QR"
                 className="w-48 h-48 object-contain rounded-lg"
               />

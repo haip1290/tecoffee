@@ -1,11 +1,13 @@
 import logo from "../assets/logo/logo_white.png";
-import bgHero from "../assets/ooobg.avif";
 
 const Hero = () => {
   return (
     <section
       className="flex-1 min-h-[85vh] bg-cover bg-center bg-no-repeat flex flex-col"
-      style={{ backgroundImage: `url(${bgHero})` }}
+      style={{
+        backgroundImage:
+          "url('https://snrslqjvofysjhreteuw.supabase.co/storage/v1/object/public/tepresso/ooobg.avif')",
+      }}
     >
       <div
         id="hook"

@@ -1,12 +1,11 @@
-import section2Img from "../assets/backroom.jpg";
-import section1Img from "../assets/coffeeMachine.jpg";
-import bgImg from "../assets/interior/counter1.png";
 const Manifesto = () => {
   return (
     <div className="w-full bg-linear-to-b from-leaf via-secondary to-primary">
       <div
         className="h-[70vh] bg-cover bg-no-repeat"
-        style={{ backgroundImage: `url(${bgImg})` }}
+        style={{
+          backgroundImage: `url('https://snrslqjvofysjhreteuw.supabase.co/storage/v1/object/public/tepresso/counter1.png')`,
+        }}
       ></div>
       <div className="space-y-16 p-6 md:p-20 lg:px-120">
         <section className="">
@@ -40,7 +39,7 @@ const Manifesto = () => {
           </div>
           <div className="flex-1">
             <img
-              src={section1Img}
+              src="https://snrslqjvofysjhreteuw.supabase.co/storage/v1/object/public/tepresso/coffeeMachine.jpg"
               alt=""
               className="w-full h-auto max-h-[450px] object-cover rounded-4xl"
             />
@@ -49,7 +48,7 @@ const Manifesto = () => {
         <section className="flex flex-col md:flex-row gap-20">
           <div className="flex-1">
             <img
-              src={section2Img}
+              src="https://snrslqjvofysjhreteuw.supabase.co/storage/v1/object/public/tepresso/backroom.jpg"
               alt=""
               className="w-full h-auto max-h-[450px] object-cover rounded-4xl"
             />

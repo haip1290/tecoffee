@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import contactUsImg from "../assets/TeWithCustomers.jpg";
+
 const ContactUs = () => {
   return (
     <section
@@ -19,7 +19,7 @@ const ContactUs = () => {
       </div>
       <div className="flex-1 h-[40vh] md:h-full">
         <img
-          src={contactUsImg}
+          src="https://snrslqjvofysjhreteuw.supabase.co/storage/v1/object/public/tepresso/TeWithCustomers.jpg"
           alt="Te employees with customers"
           className="w-full h-full object-cover rounded-4xl shadow-2xl"
         />

@@ -1,9 +1,3 @@
-import mocha from "../assets/products/mocha.jpg";
-import tepina from "../assets/products/tepina.jpg";
-import cocomatcha from "../assets/products/cocomatcha.jpg";
-import dirtymatcha from "../assets/products/dirtymatcha.jpg";
-import teroot from "../assets/products/teroot.jpg";
-
 // mock data
 const menu = [
   {
@@ -44,7 +38,8 @@ const menu = [
     name: "Mocha",
     description: "Cà phê, cacao, sữa tươi",
     price: "70000",
-    image: mocha,
+    image:
+      "https://snrslqjvofysjhreteuw.supabase.co/storage/v1/object/public/tepresso/mocha.jpg",
     category: "espresso",
   },
   {
@@ -52,7 +47,7 @@ const menu = [
     name: "Espresso w. condense milk",
     description: "Cà phê, sữa đặc",
     price: "55000",
-    image: mocha,
+    image: null,
     category: "espresso",
   },
   {
@@ -60,7 +55,7 @@ const menu = [
     name: "Egg coffee",
     description: "Cà phê, trứng",
     price: "60000",
-    image: mocha,
+    image: null,
     category: "espresso",
   },
   {
@@ -68,7 +63,7 @@ const menu = [
     name: "Piccolo latte",
     description: "Cà phê, ít sữa kiểu Úc",
     price: "55000",
-    image: mocha,
+    image: null,
     category: "espresso",
   },
   {
@@ -76,7 +71,7 @@ const menu = [
     name: "Bạc xỉu Espresso",
     description: "",
     price: "60000",
-    image: mocha,
+    image: null,
     category: "espresso",
   },
   {
@@ -84,7 +79,7 @@ const menu = [
     name: "Cà phê đen",
     description: "Phin coffee",
     price: "40000",
-    image: mocha,
+    image: null,
     category: "Vietnamese coffee",
   },
   {
@@ -92,7 +87,7 @@ const menu = [
     name: "Cà phê nâu",
     description: "Phin coffee w. condense milk",
     price: "45000",
-    image: mocha,
+    image: null,
     category: "Vietnamese coffee",
   },
   {
@@ -100,7 +95,7 @@ const menu = [
     name: "Bạc xỉu phin",
     description: "Phin coffee, condensed milk, fresh milk",
     price: "55000",
-    image: mocha,
+    image: null,
     category: "Vietnamese coffee",
   },
   {
@@ -108,7 +103,7 @@ const menu = [
     name: "Cà phê muôi",
     description: "Phin coffee, condensed milk, salted cream",
     price: "60000",
-    image: mocha,
+    image: null,
     category: "Vietnamese coffee",
   },
   {
@@ -116,7 +111,7 @@ const menu = [
     name: "Classic coldbrew",
     description: "Cà phê ủ lạnh nguyên bản",
     price: "60000",
-    image: mocha,
+    image: null,
     category: "Coldbrew",
   },
 
@@ -125,7 +120,8 @@ const menu = [
     name: "Coldbrew dừa dứa",
     description: "Coldbrew, coconut, pineapple",
     price: "65000",
-    image: tepina,
+    image:
+      "https://snrslqjvofysjhreteuw.supabase.co/storage/v1/object/public/tepresso/tepina.jpg",
     category: "Coldbrew",
   },
   {
@@ -133,7 +129,8 @@ const menu = [
     name: "Coldbrew bưởi hồng",
     description: "Coldbrew, grapefruit, lime",
     price: "65000",
-    image: cocomatcha,
+    image:
+      "https://snrslqjvofysjhreteuw.supabase.co/storage/v1/object/public/tepresso/cocomatcha.jpg",
     category: "Coldbrew",
   },
   {
@@ -141,7 +138,8 @@ const menu = [
     name: "Coldbrew sấu",
     description: "Coldbrew, dracontomelon, ginger",
     price: "65000",
-    image: cocomatcha,
+    image:
+      "https://snrslqjvofysjhreteuw.supabase.co/storage/v1/object/public/tepresso/cocomatcha.jpg",
     category: "Coldbrew",
   },
   {
@@ -149,7 +147,8 @@ const menu = [
     name: "Matcha Latte",
     description: "Matcha, sữa",
     price: "65000",
-    image: dirtymatcha,
+    image:
+      "https://snrslqjvofysjhreteuw.supabase.co/storage/v1/object/public/tepresso/dirtymatcha.jpg",
     category: "Matcha & Choco",
   },
   {
@@ -157,7 +156,8 @@ const menu = [
     name: "Coco Matcha",
     description: "Matcha dừa",
     price: "75000",
-    image: cocomatcha,
+    image:
+      "https://snrslqjvofysjhreteuw.supabase.co/storage/v1/object/public/tepresso/cocomatcha.jpg",
     category: "Matcha & Choco",
   },
   {
@@ -165,7 +165,8 @@ const menu = [
     name: "Tropical Yuzu Matcha",
     description: "Matcha, Thanh Yên, nhiệt đới",
     price: "75000",
-    image: cocomatcha,
+    image:
+      "https://snrslqjvofysjhreteuw.supabase.co/storage/v1/object/public/tepresso/cocomatcha.jpg",
     category: "Matcha & Choco",
   },
   {
@@ -173,7 +174,7 @@ const menu = [
     name: "Chocolate",
     description: "Sô cô la",
     price: "65000",
-    image: cocomatcha,
+    image: null,
     category: "Matcha & Choco",
   },
   {
@@ -181,7 +182,7 @@ const menu = [
     name: "London Fog",
     description: "Trà bá tước, sữa tươi",
     price: "65000",
-    image: cocomatcha,
+    image: null,
     category: "Tea & Juice",
   },
   {
@@ -189,7 +190,7 @@ const menu = [
     name: "Jasmine Oolong milktea",
     description: "Trà sữa Oolong nhài",
     price: "55000",
-    image: cocomatcha,
+    image: null,
     category: "Tea & Juice",
   },
   {
@@ -197,7 +198,7 @@ const menu = [
     name: "Jasmine Oolong tea machiato ư. salted cream",
     description: "Trà Oolong nhài kem mặn",
     price: "55000",
-    image: cocomatcha,
+    image: null,
     category: "Tea & Juice",
   },
   {
@@ -205,7 +206,7 @@ const menu = [
     name: "Smoke Oolong milktea",
     description: "Trà sữa Oolong khói",
     price: "55000",
-    image: cocomatcha,
+    image: null,
     category: "Tea & Juice",
   },
   {
@@ -213,7 +214,7 @@ const menu = [
     name: "Smoke Oolong milktea machiato w. earl grey cream",
     description: "Trà Oolong khói kem bá tước",
     price: "55000",
-    image: cocomatcha,
+    image: null,
     category: "Tea & Juice",
   },
   {
@@ -221,7 +222,7 @@ const menu = [
     name: "Tropical juice",
     description: "Passion fruit, pineapple, coconut",
     price: "65000",
-    image: cocomatcha,
+    image: null,
     category: "Tea & Juice",
   },
   {
@@ -229,7 +230,7 @@ const menu = [
     name: "Daily Detox",
     description: "Watermelon, beetroot, ginger, lemon",
     price: "60000",
-    image: cocomatcha,
+    image: null,
     category: "Tea & Juice",
   },
   {
@@ -237,7 +238,8 @@ const menu = [
     name: "T.ê root",
     description: "Beetroot, ginger, milk",
     price: "55000",
-    image: teroot,
+    image:
+      "https://snrslqjvofysjhreteuw.supabase.co/storage/v1/object/public/tepresso/teroot.jpg",
     category: "signatures",
   },
   {
@@ -245,7 +247,8 @@ const menu = [
     name: "T.ê in Saigon",
     description: "Coldbrew, Kumquat, salted dry apricot",
     price: "65000",
-    image: tepina,
+    image:
+      "https://snrslqjvofysjhreteuw.supabase.co/storage/v1/object/public/tepresso/tepina.jpg",
     category: "signatures",
   },
   {
@@ -253,7 +256,7 @@ const menu = [
     name: "T.ê pop",
     description: "Espresso, corn cream, popcorn",
     price: "65000",
-    image: tepina,
+    image: null,
     category: "signatures",
   },
   {
@@ -261,7 +264,7 @@ const menu = [
     name: "T.ê citrus",
     description: "Mandarin, hibicus, Jasmine oolong tea",
     price: "65000",
-    image: tepina,
+    image: null,
     category: "signatures",
   },
   {
@@ -269,7 +272,7 @@ const menu = [
     name: "Dirt.ê matcha",
     description: "Matcha, earl grey cream, milk",
     price: "75000",
-    image: tepina,
+    image: null,
     category: "signatures",
   },
   {
@@ -277,7 +280,7 @@ const menu = [
     name: "Mist.ê Hanoi",
     description: "Espresso, milk, earl grey cream",
     price: "75000",
-    image: tepina,
+    image: null,
     category: "signatures",
   },
 ];

@@ -1,5 +1,5 @@
-import manifestoImg from "../assets/interior/working_customr.jpg";
 import { Link } from "react-router";
+
 const About = () => {
   return (
     <section className="flex flex-col md:flex-row items-center h-auto md:h-[70vh] overflow-hidden bg-stone-50 py-20 md:py-4">
@@ -20,7 +20,7 @@ const About = () => {
       </div>
       <div className="flex justify-center flex-3 h-full p-8">
         <img
-          src={manifestoImg}
+          src="https://snrslqjvofysjhreteuw.supabase.co/storage/v1/object/public/tepresso/working_customr.jpg"
           className="h-full object-scale-down rounded-2xl"
           alt="signature drink on table"
         />

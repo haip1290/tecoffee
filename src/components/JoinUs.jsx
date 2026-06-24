@@ -1,11 +1,9 @@
-import shopFrontImg from "../assets/interior/te_front.jpg";
-
 const JoinUs = () => {
   return (
     <section
       className="flex flex-col h-[70vh] md:flex-row justify-between bg-cover bg-center bg-fixed bg-no-repeat"
       style={{
-        backgroundImage: `linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(${shopFrontImg})`,
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://snrslqjvofysjhreteuw.supabase.co/storage/v1/object/public/tepresso/te_front.jpg')`,
         backgroundPosition: "50% 50%",
       }}
     >
